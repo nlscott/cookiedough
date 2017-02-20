@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["nls.inbox@gmail.com"]
 
   spec.summary       = %q{A Ruby gem for macOS machines to report on Applications}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/nlscott/cookiedough"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
