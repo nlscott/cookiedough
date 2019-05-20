@@ -11,7 +11,8 @@ module CookieDough
         "Font Book.app", "Game Center.app", "iBooks.app", "Image Capture.app","iTunes.app",
         "Launchpad.app", "Mail.app", "Maps.app", "Messages.app", "Mission Control.app", "Notes.app",
         "Photo Booth.app", "Photos.app", "Preview.app", "QuickTime Player.app", "Reminders.app", "Safari.app",
-        "Stickies.app", "System Preferences.app", "TextEdit.app", "Time Machine.app", "Utilities"]
+        "Stickies.app", "System Preferences.app", "TextEdit.app", "Time Machine.app", "Utilities", "Siri.app",
+        "Books.app", "Home.app", "News.app", "Stocks.app", "Pages.app", "VoiceMemos.app" ]
 
     #list entries in /Applications folder
     def self.list_apps
@@ -153,3 +154,5 @@ module CookieDough
         return CookieDough.methods(false).sort
     end
 end
+
+# puts CookieDough.user_installed_apps
