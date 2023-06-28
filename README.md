@@ -1,5 +1,8 @@
 # CookieDough
 
+> **Note:** This has not been fully tested since macOS 10.14 but is working as of Ventura 13.4.1
+
+
 A Ruby gem for macOS clients to report about items in the Applications folder.
 
 ## Installation
